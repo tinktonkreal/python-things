@@ -1,9 +1,10 @@
+# make sure to make todo.json file.
 import os
 import json
 
 mode = input('Which mode: (i/v/d/c) ')
 
-json_path = os.path.join('/media/tinktonk/CODING/todo.json')
+json_path = os.path.join('') # put file path to todo.json
 
 
 def save():
